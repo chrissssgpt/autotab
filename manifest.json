@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,  
+  "name": "Tab Organizer",
+  "description": "Organize your tabs into groups!",
+  "permissions": ["tabs", "activeTab", "storage"], 
+  "background": { 
+    "scripts": ["background.js"] 
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true  
+  },
+  "version": "1.0.0" 
+}
